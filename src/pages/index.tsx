@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main className="h-screen w-screen bg-neutral-800 text-white">
@@ -12,17 +14,19 @@ export default function Home() {
           </p>
           <div className="p-2 md:p-3"></div>
           <button
-            className="px-3 py-2 rounded-md bg-orange-800 text-neutral-400 cursor-not-allowed"
+            className="px-3 py-2 rounded-md bg-orange-600 text-black opacity-50 cursor-not-allowed"
             title="Coming soon!"
           >
             Invite to your server
           </button>
         </div>
-        <img
+        <Image
           src="/logo.png"
+          alt="ToastyUtilities Logo"
           className="block mx-auto vert-move float-right"
           width={300}
-        ></img>
+          height={300}
+        />
       </div>
     </main>
   );
