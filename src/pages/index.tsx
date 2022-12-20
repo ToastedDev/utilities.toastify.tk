@@ -14,7 +14,7 @@ export default function Home() {
           </p>
           <div className="p-2 md:p-3"></div>
           <button
-            className="px-3 py-2 rounded-md bg-orange-600 text-black opacity-50 cursor-not-allowed"
+            className="px-3 py-2 rounded-md bg-orange-600 text-white opacity-50 cursor-not-allowed"
             title="Coming soon!"
           >
             Invite to your server
