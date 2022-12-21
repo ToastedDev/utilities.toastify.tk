@@ -14,7 +14,7 @@ export default function Home() {
             commands that are easy to understand.
           </p>
           <div className="p-2 md:p-3"></div>
-          <Link href="https://discord.com/oauth2/authorize?client_id=1054359549219459133&permissions=1099914307614&scope=bot%20applications.commands">
+          <Link href="/invite">
             <button className="px-3 py-2 rounded-md bg-[#fcb228] text-black hover:opacity-60 transition-opacity duration-150">
               Invite to your server
             </button>
