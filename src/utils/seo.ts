@@ -4,7 +4,7 @@ export const title = "ToastyUtilities";
 export const description =
   "The only moderation bot you need for your Discord server.";
 export const domain = "utilities.toastify.tk";
-export const color = "#ffdb00";
+export const color = "#fcb228";
 
 export const seo: NextSeoProps = {
   title: "Home",
